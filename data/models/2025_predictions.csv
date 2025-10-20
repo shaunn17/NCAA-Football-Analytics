@@ -1,0 +1,136 @@
+team,conference,year,top_25_probability,predicted_top_25,predicted_rank
+Army,AAC,2024.0,0.92,1,13.03
+Air Force,MWC,2024.0,0.89,1,100.01
+Cincinnati,B12,2024.0,0.77,1,90.57
+Coastal Carolina,SBC,2024.0,0.76,1,37.5
+Akron,Mid-American,2024.0,0.74,1,127.95
+Buffalo,Mid-American,2024.0,0.74,1,24.73
+App State,SBC,2024.0,0.73,1,114.93
+Bowling Green,Mid-American,2024.0,0.73,1,51.24
+Central Michigan,Mid-American,2024.0,0.73,1,131.57
+Auburn,SEC,2024.0,0.72,1,103.52
+Colorado State,MWC,2024.0,0.72,1,60.29
+Clemson,ACC,2024.0,0.71,1,3.57
+Boise State,MWC,2024.0,0.71,1,38.13
+Arkansas,SEC,2024.0,0.7,1,98.09
+Arizona State,B12,2024.0,0.69,1,6.23
+Boston College,ACC,2024.0,0.69,1,25.63
+California,ACC,2024.0,0.66,1,13.16
+Charlotte,AAC,2024.0,0.65,1,124.18
+Arizona,B12,2024.0,0.63,1,106.66
+Ball State,Mid-American,2024.0,0.63,1,68.67
+Baylor,B12,2024.0,0.61,1,19.01
+Jacksonville State,CUSA,2024.0,0.36,0,14.07
+Rutgers,B1G,2024.0,0.35,0,51.34
+Liberty,CUSA,2024.0,0.33,0,78.84
+Colorado,B12,2024.0,0.32,0,11.48
+UConn,FBS Independents,2024.0,0.32,0,68.34
+Ohio,Mid-American,2024.0,0.31,0,65.05
+New Mexico,MWC,2024.0,0.28,0,100.79
+Sam Houston,CUSA,2024.0,0.28,0,15.04
+BYU,B12,2024.0,0.27,0,29.23
+Kentucky,SEC,2024.0,0.27,0,119.21
+Michigan State,B1G,2024.0,0.26,0,120.13
+Navy,AAC,2024.0,0.23,0,20.3
+Georgia State,SBC,2024.0,0.22,0,78.01
+Louisiana,SBC,2024.0,0.22,0,11.93
+Arkansas State,SBC,2024.0,0.21,0,53.83
+Alabama,SEC,2024.0,0.19,0,28.54
+Western Kentucky,CUSA,2024.0,0.19,0,91.59
+UNLV,MWC,2024.0,0.18,0,8.77
+West Virginia,B12,2024.0,0.18,0,106.66
+Nevada,MWC,2024.0,0.18,0,81.16
+Oregon State,P12,2024.0,0.18,0,95.25
+Iowa State,B12,2024.0,0.17,0,17.42
+Northern Illinois,Mid-American,2024.0,0.16,0,78.35
+Northwestern,B1G,2024.0,0.16,0,102.0
+Duke,ACC,2024.0,0.16,0,36.58
+Ole Miss,SEC,2024.0,0.16,0,8.07
+Wisconsin,B1G,2024.0,0.15,0,115.55
+UAB,AAC,2024.0,0.15,0,125.71
+New Mexico State,CUSA,2024.0,0.14,0,128.51
+Mississippi State,SEC,2024.0,0.14,0,109.14
+Virginia Tech,ACC,2024.0,0.14,0,29.74
+Iowa,B1G,2024.0,0.14,0,17.45
+Purdue,B1G,2024.0,0.13,0,130.89
+Notre Dame,FBS Independents,2024.0,0.13,0,4.33
+Indiana,B1G,2024.0,0.13,0,5.35
+Oklahoma,SEC,2024.0,0.12,0,77.08
+Marshall,SBC,2024.0,0.12,0,15.44
+Florida International,CUSA,2024.0,0.12,0,93.37
+Middle Tennessee,CUSA,2024.0,0.12,0,122.94
+Minnesota,B1G,2024.0,0.12,0,29.71
+Washington,B1G,2024.0,0.12,0,53.5
+Western Michigan,Mid-American,2024.0,0.11,0,30.63
+Texas A&M,SEC,2024.0,0.11,0,36.7
+UCF,B12,2024.0,0.11,0,101.54
+UCLA,B1G,2024.0,0.11,0,106.16
+Wake Forest,ACC,2024.0,0.11,0,95.89
+,,2024.0,0.11,0,62.88
+Fresno State,MWC,2024.0,0.1,0,58.07
+USC,B1G,2024.0,0.1,0,71.3
+UL Monroe,SBC,2024.0,0.1,0,97.24
+Troy,SBC,2024.0,0.1,0,116.34
+Massachusetts,FBS Independents,2024.0,0.1,0,84.03
+Texas,SEC,2024.0,0.1,0,30.42
+Missouri,SEC,2024.0,0.09,0,27.79
+Rice,AAC,2024.0,0.09,0,126.2
+Michigan,B1G,2024.0,0.09,0,99.77
+Temple,AAC,2024.0,0.09,0,126.04
+Nebraska,B1G,2024.0,0.09,0,87.15
+San Diego State,MWC,2024.0,0.09,0,54.33
+Tulane,AAC,2024.0,0.08,0,27.37
+South Florida,AAC,2024.0,0.08,0,24.51
+NC State,ACC,2024.0,0.08,0,86.72
+Ohio State,B1G,2024.0,0.08,0,34.57
+Miami (FL),ACC,2024.0,0.08,0,40.59
+Houston,B12,2024.0,0.07,0,124.9
+East Carolina,AAC,2024.0,0.07,0,102.57
+UTSA,AAC,2024.0,0.07,0,54.43
+Virginia,ACC,2024.0,0.07,0,98.02
+UTEP,CUSA,2024.0,0.06,0,86.17
+Tennessee,SEC,2024.0,0.06,0,23.96
+South Carolina,SEC,2024.0,0.06,0,46.88
+Washington State,P12,2024.0,0.06,0,13.83
+Texas Tech,B12,2024.0,0.06,0,51.95
+Kansas,B12,2024.0,0.06,0,58.52
+Florida Atlantic,AAC,2024.0,0.06,0,59.69
+Florida,SEC,2024.0,0.06,0,35.08
+Kennesaw State,CUSA,2024.0,0.06,0,120.28
+Eastern Michigan,Mid-American,2024.0,0.06,0,82.42
+Wyoming,MWC,2024.0,0.06,0,111.14
+Illinois,B1G,2024.0,0.05,0,30.43
+Tulsa,AAC,2024.0,0.05,0,111.24
+Utah State,MWC,2024.0,0.05,0,93.36
+Vanderbilt,SEC,2024.0,0.05,0,32.85
+Georgia,SEC,2024.0,0.05,0,70.73
+North Carolina,ACC,2024.0,0.05,0,72.02
+James Madison,SBC,2024.0,0.05,0,3.13
+Maryland,B1G,2024.0,0.05,0,86.69
+Louisville,ACC,2024.0,0.05,0,19.51
+Miami (OH),Mid-American,2024.0,0.05,0,40.2
+Louisiana Tech,CUSA,2024.0,0.05,0,103.32
+San José State,MWC,2024.0,0.05,0,64.57
+Oklahoma State,B12,2024.0,0.05,0,109.66
+Old Dominion,SBC,2024.0,0.05,0,83.43
+Georgia Southern,SBC,2024.0,0.04,0,89.35
+Florida State,ACC,2024.0,0.04,0,132.42
+LSU,SEC,2024.0,0.04,0,74.91
+Memphis,AAC,2024.0,0.04,0,3.12
+Georgia Tech,ACC,2024.0,0.04,0,55.03
+Toledo,Mid-American,2024.0,0.04,0,65.8
+Kent State,Mid-American,2024.0,0.04,0,128.15
+Penn State,B1G,2024.0,0.04,0,7.71
+TCU,B12,2024.0,0.04,0,93.56
+Oregon,B1G,2024.0,0.04,0,25.9
+Syracuse,ACC,2024.0,0.03,0,49.34
+Hawai'i,MWC,2024.0,0.03,0,119.54
+Southern Miss,SBC,2024.0,0.03,0,131.33
+Kansas State,B12,2024.0,0.03,0,71.31
+Utah,B12,2024.0,0.03,0,105.88
+North Texas,AAC,2024.0,0.03,0,82.97
+Texas State,SBC,2024.0,0.02,0,79.9
+South Alabama,SBC,2024.0,0.02,0,17.75
+Pittsburgh,ACC,2024.0,0.02,0,70.57
+Stanford,ACC,2024.0,0.02,0,112.69
+SMU,ACC,2024.0,0.0,0,66.88
