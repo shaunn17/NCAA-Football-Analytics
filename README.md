@@ -9,6 +9,7 @@ A comprehensive, full-stack data analytics platform for NCAA Division I college 
 - **Performance Metrics**: Win percentages, yards per game, turnover margins
 - **Conference Analysis**: Standings and comparative analysis
 - **Database Integration**: Fast queries with DuckDB backend
+- **Advanced Analytics**: Trend analysis, statistical comparisons, predictive insights
 
 ### 🤖 **Machine Learning Predictions**
 - **Top 25 Predictions**: Random Forest model with 81.5% accuracy
@@ -26,6 +27,22 @@ A comprehensive, full-stack data analytics platform for NCAA Division I college 
 ### **Live Dashboard**
 The dashboard is deployed and accessible at:
 **🔗 [Streamlit Cloud Deployment](https://your-app-name.streamlit.app)**
+
+### **Advanced Analytics Dashboard**
+```bash
+# Run the advanced analytics dashboard
+python scripts/run_analytics_dashboard.py
+
+# Access at: http://localhost:8504
+```
+
+**Features:**
+- **Trend Analysis**: Historical performance trends and forecasting
+- **Performance Clustering**: ML-based team grouping by performance
+- **Statistical Comparison**: T-tests and effect size analysis
+- **Predictive Insights**: Future performance predictions
+- **Conference Analysis**: Conference-wide performance analysis
+- **Team Insights**: Comprehensive team analysis and recommendations
 
 ### **Local Development**
 ```bash
