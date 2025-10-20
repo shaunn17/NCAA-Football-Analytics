@@ -14,10 +14,23 @@ from pathlib import Path
 import logging
 import joblib
 import sys
+import os
 
-# Add src to path for database imports
-sys.path.append(str(Path(__file__).parent.parent))
-from src.storage.simple_database import create_simple_database
+# Get the project root directory
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
+
+# Setup logging first
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Try to import database (optional for deployment)
+try:
+    from src.storage.simple_database import create_simple_database
+    DATABASE_AVAILABLE = True
+except ImportError:
+    DATABASE_AVAILABLE = False
+    logger.warning("Database module not available, using CSV fallback")
 
 # Configure page
 st.set_page_config(
@@ -26,10 +39,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-# Setup logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 @st.cache_resource
 def get_database():
