@@ -1,0 +1,46 @@
+# Production Pipeline Configuration
+# This file configures the production-ready data pipeline
+
+# Data collection settings
+start_year: 2023
+end_year: 2024
+conferences:
+  - "Big Ten"
+  - "SEC"
+  - "ACC"
+  - "Big 12"
+  - "PAC"
+  - "AAC"
+  - "Mountain West"
+  - "MAC"
+  - "Sun Belt"
+  - "Conference USA"
+  - "Independent"
+
+# Scheduling settings
+schedule_interval: "daily"  # daily, weekly, monthly
+schedule_time: "06:00"  # HH:MM format (UTC)
+
+# Performance settings
+batch_size: 100
+max_retries: 3
+retry_delay: 60  # seconds
+
+# Monitoring settings
+enable_notifications: true
+notification_email: ""  # Set your email for notifications
+slack_webhook: ""  # Set your Slack webhook URL
+
+# Data validation settings
+min_data_quality_score: 0.8
+max_null_percentage: 0.1
+
+# Backup settings
+enable_backup: true
+backup_retention_days: 30
+
+# Health check settings
+health_check_interval: 300  # seconds (5 minutes)
+max_pipeline_duration: 3600  # seconds (1 hour)
+
+

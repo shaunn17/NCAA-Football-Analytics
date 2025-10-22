@@ -28,6 +28,11 @@ seaborn>=0.12.0
 # Advanced Analytics
 scipy>=1.11.0
 scikit-learn>=1.3.0
+
+# Production Pipeline
+schedule>=1.2.0
+pyyaml>=6.0
+psutil>=5.9.0
 xgboost>=1.7.0
 lightgbm>=4.0.0
 joblib>=1.3.0

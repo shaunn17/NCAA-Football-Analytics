@@ -44,6 +44,26 @@ python scripts/run_analytics_dashboard.py
 - **Conference Analysis**: Conference-wide performance analysis
 - **Team Insights**: Comprehensive team analysis and recommendations
 
+### **Production Pipeline**
+```bash
+# Run pipeline once
+python scripts/run_production_pipeline.py run
+
+# Start scheduler (runs daily at 6 AM)
+python scripts/run_production_pipeline.py schedule
+
+# Start monitoring dashboard
+python scripts/run_production_pipeline.py monitor
+```
+
+**Features:**
+- **Automated Scheduling**: Daily/weekly/monthly execution
+- **Error Handling**: Robust error handling and recovery
+- **Monitoring**: Real-time pipeline monitoring and alerts
+- **Data Validation**: Automated data quality checks
+- **Backup & Recovery**: Automatic data backups
+- **Performance Optimization**: Efficient batch processing
+
 ### **Local Development**
 ```bash
 # Clone the repository

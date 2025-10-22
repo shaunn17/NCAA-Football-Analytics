@@ -308,23 +308,23 @@ with tab3:
         
         # Performance rankings
         st.subheader("Performance Rankings")
-        perf_rankings = predictions.sort_values('performance_rank', ascending=True)
+        perf_rankings = predictions.sort_values('predicted_rank', ascending=True)
         
         fig_perf = px.scatter(
             perf_rankings.head(50),
-            x='performance_rank',
+            x='predicted_rank',
             y='top_25_probability',
             hover_data=['team'],
             title="Performance Ranking vs Top 25 Probability",
             color='top_25_probability',
             color_continuous_scale='RdYlGn'
         )
-        fig_perf.update_layout(xaxis_title="Performance Rank", yaxis_title="Top 25 Probability")
+        fig_perf.update_layout(xaxis_title="Predicted Rank", yaxis_title="Top 25 Probability")
         st.plotly_chart(fig_perf, use_container_width=True)
         
         # Predictions table
         st.subheader("All Predictions")
-        pred_cols = ['team', 'top_25_probability', 'performance_rank']
+        pred_cols = ['team', 'top_25_probability', 'predicted_rank']
         available_pred_cols = [col for col in pred_cols if col in predictions.columns]
         st.dataframe(
             predictions[available_pred_cols].round(3),
