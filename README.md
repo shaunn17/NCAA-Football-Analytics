@@ -22,6 +22,18 @@ A comprehensive, full-stack data analytics platform for NCAA Division I college 
 - **Database Storage**: DuckDB for fast analytical queries
 - **Historical Data**: 2023-2024 seasons with 268 team records
 
+## 📚 Documentation
+
+**📁 [Complete Documentation](docs/)** - All guides and tutorials in one place
+
+- **[📖 Documentation Index](docs/DOCUMENTATION_INDEX.md)** - Complete documentation overview
+- **[🎓 User Guide](docs/USER_GUIDE.md)** - Getting started guide for new users
+- **[📊 Dashboard Tutorials](docs/DASHBOARD_TUTORIALS.md)** - Step-by-step dashboard walkthroughs
+- **[🔬 Advanced Analytics Guide](docs/ADVANCED_ANALYTICS.md)** - Statistical analysis and insights
+- **[🏭 Production Pipeline Guide](docs/PRODUCTION_PIPELINE.md)** - Enterprise-grade automation
+- **[📖 API Documentation](docs/API_DOCUMENTATION.md)** - Complete API reference
+- **[❓ FAQ & Troubleshooting](docs/FAQ_TROUBLESHOOTING.md)** - Common questions and solutions
+
 ## 🚀 Quick Start
 
 ### **Live Dashboard**
