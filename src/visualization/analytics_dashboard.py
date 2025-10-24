@@ -39,7 +39,7 @@ def load_data():
     """Load data from database or CSV fallback."""
     if ANALYTICS_AVAILABLE:
         try:
-            db = SimpleDatabaseManager(Path("data"))
+            db = SimpleDatabaseManager()
             # Get all data for analytics
             query = "SELECT * FROM ncaa_football_data"
             return db.query(query)
@@ -58,7 +58,7 @@ def main():
     """Main analytics dashboard."""
     st.set_page_config(
         page_title="NCAA Football Advanced Analytics",
-        page_layout="wide",
+        layout="wide",
         initial_sidebar_state="expanded"
     )
     
@@ -85,10 +85,10 @@ def main():
     # Sidebar controls
     st.sidebar.header("🎛️ Analytics Controls")
     
-    # Get available teams and years
-    teams = sorted(data['team'].unique())
-    years = sorted(data['year'].unique())
-    conferences = sorted(data['conference'].unique())
+    # Get available teams and years (handle mixed data types)
+    teams = sorted([str(t) for t in data['team'].dropna().unique()])
+    years = sorted([int(y) for y in data['year'].dropna().unique()])
+    conferences = sorted([str(c) for c in data['conference'].dropna().unique()])
     
     # Analysis type selection
     analysis_type = st.sidebar.selectbox(

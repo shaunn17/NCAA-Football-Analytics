@@ -1,11 +1,25 @@
 {
-  "start_time": "2025-10-19T12:39:56.174129",
+  "start_time": "2025-10-23T23:26:11.937558",
   "seasons": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
     2023,
     2024
   ],
   "conferences": [
-    "Big Ten"
+    "Big Ten",
+    "SEC",
+    "ACC",
+    "Big 12",
+    "Pac-12",
+    "American Athletic",
+    "Mountain West",
+    "MAC",
+    "Sun Belt",
+    "Conference USA"
   ],
   "results": {
     "conferences": {
@@ -14,14 +28,169 @@
       "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/conferences.csv"
     },
     "teams": {
-      "count": 1880,
+      "count": 1882,
       "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/teams_all.json",
       "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/teams_all.csv",
       "conference": null
     },
+    "season_2018": {
+      "season": 2018,
+      "start_time": "2025-10-23T23:26:13.434394",
+      "data_types": {
+        "team_stats": {
+          "count": 8187,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2018.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2018.csv"
+        },
+        "games": {
+          "count": 1556,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2018.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2018.csv",
+          "weeks": null
+        },
+        "rankings": {
+          "count": 16,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2018.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2018.csv",
+          "weeks": null
+        },
+        "drives": {
+          "count": 22717,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2018.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2018.csv",
+          "weeks": null
+        }
+      },
+      "end_time": "2025-10-23T23:26:22.361925",
+      "success": true
+    },
+    "season_2019": {
+      "season": 2019,
+      "start_time": "2025-10-23T23:26:22.362017",
+      "data_types": {
+        "team_stats": {
+          "count": 8190,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2019.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2019.csv"
+        },
+        "games": {
+          "count": 1623,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2019.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2019.csv",
+          "weeks": null
+        },
+        "rankings": {
+          "count": 17,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2019.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2019.csv",
+          "weeks": null
+        },
+        "drives": {
+          "count": 22392,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2019.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2019.csv",
+          "weeks": null
+        }
+      },
+      "end_time": "2025-10-23T23:26:30.860518",
+      "success": true
+    },
+    "season_2020": {
+      "season": 2020,
+      "start_time": "2025-10-23T23:26:30.860608",
+      "data_types": {
+        "team_stats": {
+          "count": 7990,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2020.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2020.csv"
+        },
+        "games": {
+          "count": 1125,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2020.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2020.csv",
+          "weeks": null
+        },
+        "rankings": {
+          "count": 16,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2020.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2020.csv",
+          "weeks": null
+        },
+        "drives": {
+          "count": 14172,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2020.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2020.csv",
+          "weeks": null
+        }
+      },
+      "end_time": "2025-10-23T23:26:35.723478",
+      "success": true
+    },
+    "season_2021": {
+      "season": 2021,
+      "start_time": "2025-10-23T23:26:35.723555",
+      "data_types": {
+        "team_stats": {
+          "count": 8190,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2021.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2021.csv"
+        },
+        "games": {
+          "count": 2454,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2021.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2021.csv",
+          "weeks": null
+        },
+        "rankings": {
+          "count": 16,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2021.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2021.csv",
+          "weeks": null
+        },
+        "drives": {
+          "count": 21612,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2021.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2021.csv",
+          "weeks": null
+        }
+      },
+      "end_time": "2025-10-23T23:26:44.275945",
+      "success": true
+    },
+    "season_2022": {
+      "season": 2022,
+      "start_time": "2025-10-23T23:26:44.276052",
+      "data_types": {
+        "team_stats": {
+          "count": 8253,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2022.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/team_stats_2022.csv"
+        },
+        "games": {
+          "count": 3705,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2022.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/games_2022.csv",
+          "weeks": null
+        },
+        "rankings": {
+          "count": 16,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2022.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/rankings_2022.csv",
+          "weeks": null
+        },
+        "drives": {
+          "count": 35669,
+          "file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2022.json",
+          "csv_file": "/Users/shaunfigueiro/Desktop/Projects/NCAA Football Analytics/data/raw/drives_2022.csv",
+          "weeks": null
+        }
+      },
+      "end_time": "2025-10-23T23:26:53.876492",
+      "success": true
+    },
     "season_2023": {
       "season": 2023,
-      "start_time": "2025-10-19T12:39:57.692886",
+      "start_time": "2025-10-23T23:26:53.876606",
       "data_types": {
         "team_stats": {
           "count": 8376,
@@ -47,12 +216,12 @@
           "weeks": null
         }
       },
-      "end_time": "2025-10-19T12:40:21.176419",
+      "end_time": "2025-10-23T23:27:03.280091",
       "success": true
     },
     "season_2024": {
       "season": 2024,
-      "start_time": "2025-10-19T12:40:21.176555",
+      "start_time": "2025-10-23T23:27:03.280201",
       "data_types": {
         "team_stats": {
           "count": 8442,
@@ -78,10 +247,10 @@
           "weeks": null
         }
       },
-      "end_time": "2025-10-19T12:40:32.130956",
+      "end_time": "2025-10-23T23:27:13.452779",
       "success": true
     }
   },
-  "end_time": "2025-10-19T12:40:32.131062",
+  "end_time": "2025-10-23T23:27:13.452873",
   "success": true
 }

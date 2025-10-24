@@ -354,36 +354,6 @@
     }
   },
   {
-    "id": 1001026,
-    "school": "Albany",
-    "mascot": null,
-    "abbreviation": null,
-    "alternateNames": [],
-    "conference": null,
-    "division": null,
-    "classification": null,
-    "color": "#null",
-    "alternateColor": "#null",
-    "logos": null,
-    "twitter": null,
-    "location": {
-      "id": null,
-      "name": null,
-      "city": null,
-      "state": null,
-      "zip": null,
-      "countryCode": null,
-      "timezone": null,
-      "latitude": null,
-      "longitude": null,
-      "elevation": null,
-      "capacity": null,
-      "constructionYear": null,
-      "grass": null,
-      "dome": null
-    }
-  },
-  {
     "id": 1001029,
     "school": "Albany",
     "mascot": null,
@@ -415,6 +385,36 @@
   },
   {
     "id": 1001024,
+    "school": "Albany",
+    "mascot": null,
+    "abbreviation": null,
+    "alternateNames": [],
+    "conference": null,
+    "division": null,
+    "classification": null,
+    "color": "#null",
+    "alternateColor": "#null",
+    "logos": null,
+    "twitter": null,
+    "location": {
+      "id": null,
+      "name": null,
+      "city": null,
+      "state": null,
+      "zip": null,
+      "countryCode": null,
+      "timezone": null,
+      "latitude": null,
+      "longitude": null,
+      "elevation": null,
+      "capacity": null,
+      "constructionYear": null,
+      "grass": null,
+      "dome": null
+    }
+  },
+  {
+    "id": 1001026,
     "school": "Albany",
     "mascot": null,
     "abbreviation": null,
@@ -2953,7 +2953,7 @@
     }
   },
   {
-    "id": 1000959,
+    "id": 1000962,
     "school": "Blinn College",
     "mascot": null,
     "abbreviation": null,
@@ -2983,7 +2983,7 @@
     }
   },
   {
-    "id": 1000949,
+    "id": 1000959,
     "school": "Blinn College",
     "mascot": null,
     "abbreviation": null,
@@ -3043,7 +3043,7 @@
     }
   },
   {
-    "id": 1000962,
+    "id": 1000949,
     "school": "Blinn College",
     "mascot": null,
     "abbreviation": null,
@@ -3827,7 +3827,7 @@
     }
   },
   {
-    "id": 1000939,
+    "id": 1000947,
     "school": "Butler C.C.",
     "mascot": null,
     "abbreviation": null,
@@ -3857,7 +3857,7 @@
     }
   },
   {
-    "id": 1000947,
+    "id": 1000939,
     "school": "Butler C.C.",
     "mascot": null,
     "abbreviation": null,
@@ -5210,42 +5210,6 @@
     }
   },
   {
-    "id": 2429,
-    "school": "Charlotte",
-    "mascot": "49ers",
-    "abbreviation": "CLT",
-    "alternateNames": [
-      "CLT",
-      "Charlotte"
-    ],
-    "conference": "American Athletic",
-    "division": null,
-    "classification": "fbs",
-    "color": "#046A38",
-    "alternateColor": "#B9975B",
-    "logos": [
-      "http://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-      "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2429.png"
-    ],
-    "twitter": "@CharlotteFTBL",
-    "location": {
-      "id": 4418,
-      "name": "Jerry Richardson Stadium",
-      "city": "Charlotte",
-      "state": "NC",
-      "zip": "28223",
-      "countryCode": "US",
-      "timezone": "America/New_York",
-      "latitude": 35.3105033,
-      "longitude": -80.7401194,
-      "elevation": "190.365509",
-      "capacity": 15300,
-      "constructionYear": 2013,
-      "grass": false,
-      "dome": false
-    }
-  },
-  {
     "id": 3253,
     "school": "Charlotte",
     "mascot": "Saints",
@@ -5279,6 +5243,42 @@
       "constructionYear": null,
       "grass": null,
       "dome": null
+    }
+  },
+  {
+    "id": 2429,
+    "school": "Charlotte",
+    "mascot": "49ers",
+    "abbreviation": "CLT",
+    "alternateNames": [
+      "CLT",
+      "Charlotte"
+    ],
+    "conference": "American Athletic",
+    "division": null,
+    "classification": "fbs",
+    "color": "#046A38",
+    "alternateColor": "#B9975B",
+    "logos": [
+      "http://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+      "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2429.png"
+    ],
+    "twitter": "@CharlotteFTBL",
+    "location": {
+      "id": 4418,
+      "name": "Jerry Richardson Stadium",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28223",
+      "countryCode": "US",
+      "timezone": "America/New_York",
+      "latitude": 35.3105033,
+      "longitude": -80.7401194,
+      "elevation": "190.365509",
+      "capacity": 15300,
+      "constructionYear": 2013,
+      "grass": false,
+      "dome": false
     }
   },
   {
@@ -8455,36 +8455,6 @@
     }
   },
   {
-    "id": 1001018,
-    "school": "Edinboro University",
-    "mascot": null,
-    "abbreviation": null,
-    "alternateNames": [],
-    "conference": null,
-    "division": null,
-    "classification": null,
-    "color": "#null",
-    "alternateColor": "#null",
-    "logos": null,
-    "twitter": null,
-    "location": {
-      "id": null,
-      "name": null,
-      "city": null,
-      "state": null,
-      "zip": null,
-      "countryCode": null,
-      "timezone": null,
-      "latitude": null,
-      "longitude": null,
-      "elevation": null,
-      "capacity": null,
-      "constructionYear": null,
-      "grass": null,
-      "dome": null
-    }
-  },
-  {
     "id": 2205,
     "school": "Edinboro University",
     "mascot": "Fighting Scots",
@@ -8518,6 +8488,36 @@
       "constructionYear": null,
       "grass": null,
       "dome": false
+    }
+  },
+  {
+    "id": 1001018,
+    "school": "Edinboro University",
+    "mascot": null,
+    "abbreviation": null,
+    "alternateNames": [],
+    "conference": null,
+    "division": null,
+    "classification": null,
+    "color": "#null",
+    "alternateColor": "#null",
+    "logos": null,
+    "twitter": null,
+    "location": {
+      "id": null,
+      "name": null,
+      "city": null,
+      "state": null,
+      "zip": null,
+      "countryCode": null,
+      "timezone": null,
+      "latitude": null,
+      "longitude": null,
+      "elevation": null,
+      "capacity": null,
+      "constructionYear": null,
+      "grass": null,
+      "dome": null
     }
   },
   {
@@ -12477,7 +12477,7 @@
     }
   },
   {
-    "id": 1000963,
+    "id": 1000942,
     "school": "Independence C.C.",
     "mascot": null,
     "abbreviation": null,
@@ -12507,7 +12507,7 @@
     }
   },
   {
-    "id": 1000942,
+    "id": 1000963,
     "school": "Independence C.C.",
     "mascot": null,
     "abbreviation": null,
@@ -17561,6 +17561,36 @@
     }
   },
   {
+    "id": 1001020,
+    "school": "Minnesota Duluth",
+    "mascot": null,
+    "abbreviation": null,
+    "alternateNames": [],
+    "conference": null,
+    "division": null,
+    "classification": null,
+    "color": "#null",
+    "alternateColor": "#null",
+    "logos": null,
+    "twitter": null,
+    "location": {
+      "id": null,
+      "name": null,
+      "city": null,
+      "state": null,
+      "zip": null,
+      "countryCode": null,
+      "timezone": null,
+      "latitude": null,
+      "longitude": null,
+      "elevation": null,
+      "capacity": null,
+      "constructionYear": null,
+      "grass": null,
+      "dome": null
+    }
+  },
+  {
     "id": 134,
     "school": "Minnesota Duluth",
     "mascot": "Bulldogs",
@@ -17594,36 +17624,6 @@
       "constructionYear": null,
       "grass": null,
       "dome": false
-    }
-  },
-  {
-    "id": 1001020,
-    "school": "Minnesota Duluth",
-    "mascot": null,
-    "abbreviation": null,
-    "alternateNames": [],
-    "conference": null,
-    "division": null,
-    "classification": null,
-    "color": "#null",
-    "alternateColor": "#null",
-    "logos": null,
-    "twitter": null,
-    "location": {
-      "id": null,
-      "name": null,
-      "city": null,
-      "state": null,
-      "zip": null,
-      "countryCode": null,
-      "timezone": null,
-      "latitude": null,
-      "longitude": null,
-      "elevation": null,
-      "capacity": null,
-      "constructionYear": null,
-      "grass": null,
-      "dome": null
     }
   },
   {
@@ -22412,7 +22412,7 @@
     }
   },
   {
-    "id": 1000951,
+    "id": 1000950,
     "school": "Professional",
     "mascot": null,
     "abbreviation": null,
@@ -22442,7 +22442,7 @@
     }
   },
   {
-    "id": 1000950,
+    "id": 1000951,
     "school": "Professional",
     "mascot": null,
     "abbreviation": null,
@@ -27535,6 +27535,66 @@
       "constructionYear": null,
       "grass": null,
       "dome": false
+    }
+  },
+  {
+    "id": 1001057,
+    "school": "Trinity",
+    "mascot": null,
+    "abbreviation": null,
+    "alternateNames": [],
+    "conference": null,
+    "division": null,
+    "classification": null,
+    "color": "#null",
+    "alternateColor": "#null",
+    "logos": null,
+    "twitter": null,
+    "location": {
+      "id": null,
+      "name": null,
+      "city": null,
+      "state": null,
+      "zip": null,
+      "countryCode": null,
+      "timezone": null,
+      "latitude": null,
+      "longitude": null,
+      "elevation": null,
+      "capacity": null,
+      "constructionYear": null,
+      "grass": null,
+      "dome": null
+    }
+  },
+  {
+    "id": 1001058,
+    "school": "Trinity",
+    "mascot": null,
+    "abbreviation": null,
+    "alternateNames": [],
+    "conference": null,
+    "division": null,
+    "classification": null,
+    "color": "#null",
+    "alternateColor": "#null",
+    "logos": null,
+    "twitter": null,
+    "location": {
+      "id": null,
+      "name": null,
+      "city": null,
+      "state": null,
+      "zip": null,
+      "countryCode": null,
+      "timezone": null,
+      "latitude": null,
+      "longitude": null,
+      "elevation": null,
+      "capacity": null,
+      "constructionYear": null,
+      "grass": null,
+      "dome": null
     }
   },
   {
@@ -57742,6 +57802,36 @@
     }
   },
   {
+    "id": 1000685,
+    "school": "Thiel",
+    "mascot": null,
+    "abbreviation": null,
+    "alternateNames": [],
+    "conference": null,
+    "division": null,
+    "classification": null,
+    "color": "#null",
+    "alternateColor": "#null",
+    "logos": null,
+    "twitter": null,
+    "location": {
+      "id": null,
+      "name": null,
+      "city": null,
+      "state": null,
+      "zip": null,
+      "countryCode": null,
+      "timezone": null,
+      "latitude": null,
+      "longitude": null,
+      "elevation": null,
+      "capacity": null,
+      "constructionYear": null,
+      "grass": null,
+      "dome": null
+    }
+  },
+  {
     "id": 2644,
     "school": "Thiel",
     "mascot": "Tomcats",
@@ -57775,36 +57865,6 @@
       "constructionYear": null,
       "grass": null,
       "dome": false
-    }
-  },
-  {
-    "id": 1000685,
-    "school": "Thiel",
-    "mascot": null,
-    "abbreviation": null,
-    "alternateNames": [],
-    "conference": null,
-    "division": null,
-    "classification": null,
-    "color": "#null",
-    "alternateColor": "#null",
-    "logos": null,
-    "twitter": null,
-    "location": {
-      "id": null,
-      "name": null,
-      "city": null,
-      "state": null,
-      "zip": null,
-      "countryCode": null,
-      "timezone": null,
-      "latitude": null,
-      "longitude": null,
-      "elevation": null,
-      "capacity": null,
-      "constructionYear": null,
-      "grass": null,
-      "dome": null
     }
   },
   {
