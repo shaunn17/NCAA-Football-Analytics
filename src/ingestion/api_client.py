@@ -45,10 +45,12 @@ class CollegeFootballDataAPIClient:
         self.session.mount("http://", adapter)
         self.session.mount("https://", adapter)
         
-        # Rate limiting
+        # Rate limiting and usage tracking
         self.last_request_time = 0
         self.request_count = 0
         self.rate_limit_window_start = time.time()
+        self.total_requests = 0  # Track total requests across all sessions
+        self.endpoint_usage = {}  # Track usage by endpoint
         
         if not self.api_key:
             logger.warning("No API key provided. Some endpoints may not work.")
@@ -80,6 +82,7 @@ class CollegeFootballDataAPIClient:
         
         self.last_request_time = time.time()
         self.request_count += 1
+        self.total_requests += 1
     
     def _make_request(self, endpoint: str, params: Dict = None) -> Dict[str, Any]:
         """
@@ -102,6 +105,12 @@ class CollegeFootballDataAPIClient:
         
         try:
             logger.debug(f"Making request to {url} with params: {params}")
+            
+            # Track endpoint usage
+            if endpoint not in self.endpoint_usage:
+                self.endpoint_usage[endpoint] = 0
+            self.endpoint_usage[endpoint] += 1
+            
             response = self.session.get(
                 url, 
                 params=params, 
@@ -109,6 +118,9 @@ class CollegeFootballDataAPIClient:
                 timeout=self.timeout
             )
             response.raise_for_status()
+            
+            # Log successful request
+            logger.info(f"API request successful: {endpoint} (Total: {self.total_requests})")
             
             return response.json()
             
@@ -271,6 +283,27 @@ class CollegeFootballDataAPIClient:
         except Exception as e:
             logger.error(f"API connection test failed: {e}")
             return False
+    
+    def get_usage_stats(self) -> Dict[str, Any]:
+        """
+        Get current usage statistics
+        
+        Returns:
+            Dictionary with usage statistics
+        """
+        current_time = time.time()
+        time_since_reset = current_time - self.rate_limit_window_start
+        
+        return {
+            "total_requests": self.total_requests,
+            "current_window_requests": self.request_count,
+            "rate_limit": self.rate_limit,
+            "rate_limit_window_remaining": max(0, 60 - time_since_reset),
+            "requests_remaining_in_window": max(0, self.rate_limit - self.request_count),
+            "endpoint_usage": self.endpoint_usage.copy(),
+            "last_request_time": self.last_request_time,
+            "rate_limit_window_start": self.rate_limit_window_start
+        }
 
 
 def create_api_client() -> CollegeFootballDataAPIClient:
