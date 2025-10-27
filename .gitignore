@@ -58,7 +58,9 @@ data/models/*.joblib
 
 # Logs
 *.log
-logs/
+logs/old/
+pipeline_*.log
+api_test.log
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
